@@ -1,0 +1,7 @@
+{
+  "name": "mobile_ped",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

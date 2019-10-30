@@ -1,0 +1,17 @@
+<ion-content padding>
+<h2 style="text-align: center"></h2>  
+<img class="logo" src="assets/imgs/agropetVieira.jpg">
+  <ion-item>
+    <ion-label><ion-icon ios="ios-person" md="md-person"></ion-icon> Email: </ion-label>
+    <ion-input type="text" #usuario></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label><ion-icon ios="ios-lock" md="md-lock"></ion-icon> Senha: </ion-label>
+    <ion-input type="password" #senha></ion-input>
+  </ion-item>  
+
+  <button ion-button block class="botao" (click)="entrar()" >Logar</button>
+  <!--<button ion-button block (click)="cadastrar()" >Cadastrar</button> -->
+  <p class="textos"><a (click)="cadastrar()"> Criar Conta</a></p>
+  <p class="textos"><a (click)="recuperar()"> Esqueci minha senha</a></p>
+</ion-content>  
